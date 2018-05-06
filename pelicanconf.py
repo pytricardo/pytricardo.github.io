@@ -35,3 +35,9 @@ DEFAULT_PAGINATION = 5
 #RELATIVE_URLS = True
 
 STATIC_PATHS = ['images']
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['i18n_subsites']
+I18N_TEMPLATES_LANG = 'es'
+THEME = "themes/pelican-themes/pelican-bootstrap3"
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
